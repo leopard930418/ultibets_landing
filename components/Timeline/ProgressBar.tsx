@@ -100,14 +100,14 @@ const ProgressBar = () => {
       subtitle: 'Protocol Launch',
       item1: 'Avalanche / Binance Smart Chain / Fantom / Polygon Integration',
       item2: '11 Prediction Categories',
-      item3: 'AVAX/BNB/FTM/MATIC Betting Currencies Available',
+      item3: 'AVAX/BNB/FTM/MATIC Prediction Currencies Available',
       item4: 'Weekly Squid Bets Competitions',
     },
     {
       title: 'Q1-Q2 2023',
       subtitle: 'Metaverse Building',
       item1:
-        'Cross chain metaverse & betting integration with UTBETS tokens as the only betting currency',
+        'Cross chain metaverse & prediction integration with UTBETS tokens as the only prediction currency',
       item2:
         'Full UltiBets protocol integration to offer one unique location to join for the UltiBettors community scattered around the 6 chains',
       item3: 'Second fundraising IDO and team hiring process',
@@ -142,7 +142,7 @@ const ProgressBar = () => {
     {
       title: 'Q2-Q3 2023',
       subtitle: 'Metaverse Launch',
-      item1: 'Squid Bets Competitions Arena & Betting Shops for Daily Bets',
+      item1: 'Squid Bets Competitions Arena & Predicting Shops for Daily Predictions',
       item2: 'Digital Store with Pass & NFTs',
       item3: `Native chain "Meet and Chill" areas with exciting animations & marketing operations (Fantom area in blue, BSC area in yellow etc)`,
     },
@@ -163,7 +163,7 @@ const ProgressBar = () => {
       item1: '8000+ unique visitors',
       item2: '12+ countries',
       item3:
-        '190 000+ Testnet FTM bet on the protocol over 745 betting contracts',
+        '190 000+ Testnet FTM predict on the protocol over 745 prediction contracts',
     },
     {
       title: 'Q2-Q3 2022',
@@ -190,7 +190,7 @@ const ProgressBar = () => {
       subtitle: 'Protocol Launch',
       item1: 'Avalanche / Binance Smart Chain / Fantom / Polygon Integration',
       item2: '11 prediction Categories',
-      item3: 'AVAX/BNB/FTM/MATIC Betting Currencies Available',
+      item3: 'AVAX/BNB/FTM/MATIC Prediction Currencies Available',
       item4: 'Weekly Squid Bets Competitions',
     },
     {
@@ -214,7 +214,7 @@ const ProgressBar = () => {
       title: 'Q1-Q2 2023',
       subtitle: 'Metaverse Building',
       item1:
-        'Cross chain metaverse & betting integration with UTBETS tokens as the only betting currency',
+        'Cross chain metaverse & predicting integration with UTBETS tokens as the only prediction currency',
       item2:
         'Full UltiBets protocol integration to offer one unique location to join for the UltiBettors community scattered around the 6 chains',
       item3: 'Second fundraising IDO and team hiring process',
@@ -222,7 +222,7 @@ const ProgressBar = () => {
     {
       title: 'Q2-Q3 2023',
       subtitle: 'Metaverse Launch',
-      item1: 'Squid Bets Competitions Arena & Betting Shops for Daily Bets',
+      item1: 'Squid Bets Competitions Arena & Predicting Shops for Daily Predictions',
       item2: 'Digital Store with Pass & NFTs',
       item3: `Native chain "Meet and Chill" areas with exciting animations & marketing operations (Fantom area in blue, BSC area in yellow etc)`,
     },

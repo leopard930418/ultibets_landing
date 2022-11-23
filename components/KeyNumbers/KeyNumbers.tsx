@@ -148,7 +148,7 @@ const KeyNumbers = () => {
         px={['0px', '0px', '0px', '120px']}
         mt={['-1000px', '-1050px', '-1030px', '-250px']}
         alignItems={'center'}
-        gap={['200px', '200px', '200px', '150px']}
+        gap={['200px', '200px', '200px', '250px']}
         direction={['column', 'column', 'column', 'row']}
       >
         <Flex>
@@ -172,7 +172,7 @@ const KeyNumbers = () => {
               width={'200px'}
               height={'90px'}
             >
-              New weekly bets available on average
+              New weekly predictions available on average
             </Text>
             {/* </Slide>{' '} */}
           </Flex>
@@ -199,7 +199,7 @@ const KeyNumbers = () => {
               height={'90px'}
               alignItems={'start'}
             >
-              EVM compatible blockchains for fair fast and low-cost bets{' '}
+              EVM compatible blockchains for fair fast and low-cost predictions{' '}
             </Text>
           </Flex>
           {/* </Slide> */}
@@ -226,7 +226,7 @@ const KeyNumbers = () => {
               height={'90px'}
               alignItems={'start'}
             >
-              betting categories including squid bet competitions{' '}
+              prediction categories including squid bet competitions{' '}
             </Text>
           </Flex>
           {/* </Slide> */}

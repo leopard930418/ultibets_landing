@@ -69,7 +69,7 @@ const Hero = () => {
                 textAlign={'left'}
                 color={'#FFFFFF'}
               >
-                Start Betting{' '}
+                Start Predicting{' '}
               </Text>
             </Button>{' '}
             </a>

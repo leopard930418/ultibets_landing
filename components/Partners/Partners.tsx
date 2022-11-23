@@ -33,7 +33,7 @@ const Partners = () => {
       </Flex>
 
       <Flex
-        mt={["0px", "100px", "100px", "100px"]}
+        mt={["50px", "150px", "150px", "150px"]}
         justifyContent={"center"}
         alignItems={"center"}
       >

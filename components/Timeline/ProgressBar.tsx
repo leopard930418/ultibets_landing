@@ -99,7 +99,7 @@ const ProgressBar = () => {
       title: 'Q4 2022',
       subtitle: 'Protocol Launch',
       item1: 'Avalanche / Binance Smart Chain / Fantom / Polygon Integration',
-      item2: '11 Betting Categories',
+      item2: '11 Prediction Categories',
       item3: 'AVAX/BNB/FTM/MATIC Betting Currencies Available',
       item4: 'Weekly Squid Bets Competitions',
     },
@@ -121,7 +121,7 @@ const ProgressBar = () => {
       item1: '8000+ unique visitors',
       item2: '12+ countries',
       item3:
-        '190 000+ Testnet FTM bet on the protocol over 745 betting contracts',
+        '190 000+ Testnet FTM predict on the protocol over 745 betting contracts',
     },
     {
       title: 'Q2-Q3 2022',
@@ -135,8 +135,8 @@ const ProgressBar = () => {
       subtitle: 'Protocol Improvements',
       item1: 'Arbitrum / Harmony Integration',
       item2:
-        'Side Bets Integration (over/under, scorers, points/goals per qt/half)',
-      item3: 'USDC/UTBETS (for each chain) Betting Currencies Integration',
+        'Side Predictions Integration (over/under, scorers, points/goals per qt/half)',
+      item3: 'USDC/UTBETS (for each chain) Prediction Currencies Integration',
       item4: 'Chainlink Price Feeds Integration',
     },
     {
@@ -189,7 +189,7 @@ const ProgressBar = () => {
       title: 'Q4 2022',
       subtitle: 'Protocol Launch',
       item1: 'Avalanche / Binance Smart Chain / Fantom / Polygon Integration',
-      item2: '11 Betting Categories',
+      item2: '11 prediction Categories',
       item3: 'AVAX/BNB/FTM/MATIC Betting Currencies Available',
       item4: 'Weekly Squid Bets Competitions',
     },
@@ -198,8 +198,8 @@ const ProgressBar = () => {
       subtitle: 'Protocol Improvements',
       item1: 'Arbitrum / Harmony Integration',
       item2:
-        'Side Bets Integration (over/under, scorers, points/goals per qt/half)',
-      item3: 'USDC/UTBETS (for each chain) Betting Currencies Integration',
+        'Side Predictions Integration (over/under, scorers, points/goals per qt/half)',
+      item3: 'USDC/UTBETS (for each chain) Prediction Currencies Integration',
       item4: 'Chainlink Price Feeds Integration',
     },
     {

@@ -102,7 +102,7 @@ const About = () => {
                 textTransform={'capitalize'}
                 color={'#FFFFFF'}
               >
-                Place Bets Between Binary
+                Place Predictions Between Binary
               </Text>
               <Flex
                 justifyContent={'center'}
@@ -119,8 +119,7 @@ const About = () => {
                   letterSpacing={'0.02em'}
                   width={'530px'}
                 >
-                  Coming back to the purest form of betting while keeping both
-                  excitment and originality.
+                  Various Predictions Formats and Categories.
                 </Text>
                 <Text
                   fontFamily={'Inter'}
@@ -132,7 +131,8 @@ const About = () => {
                   letterSpacing={'0.02em'}
                   width={'530px'}
                 >
-                  Binary bets will be available in 11 categories.
+                  Home / Draw / Away Predictions, Binary Predictions and Side Predictions will be available in 11 categories. 
+
                 </Text>
               </Flex>
               {/* </Slide> */}
@@ -179,7 +179,7 @@ const About = () => {
                 letterSpacing={'0.02em'}
                 width={'600px'}
               >
-                Bets are coded into
+                Predictions are coded into
                 <Text as={'span'} color={'#E18935'}>
                   {/* &nsbp;  */}
                   &nbsp;smart contracts&nbsp;
@@ -247,7 +247,7 @@ const About = () => {
                   as={'span'}
                   color={'#E18935'}
                 >
-                  &nbsp;The more you bet, the more you gain.
+                  &nbsp;The more you predict, the more you gain.
                   {/* The more you bet the more you gain &nbsp; */}
                 </Text>
                 <Text
@@ -343,7 +343,7 @@ const About = () => {
               textTransform={'capitalize'}
               color={'#FFFFFF'}
             >
-              Place Bets Between Binary
+              Place Predictions Between Binary
             </Text>
             <Flex
               justifyContent={'center'}
@@ -360,8 +360,7 @@ const About = () => {
                 lineHeight={'18px'}
                 letterSpacing={'0.02em'}
               >
-                Coming back to the purest form of betting while keeping both
-                excitment and originality.
+                Various Predictions Formats and Categories.
               </Text>
               <Text
                 fontFamily={'Inter'}
@@ -372,7 +371,8 @@ const About = () => {
                 lineHeight={'18px'}
                 letterSpacing={'0.02em'}
               >
-                Binary bets will be available in 11 categories.
+                Home / Draw / Away Predictions, Binary Predictions and Side Predictions will be available in 11 categories. 
+
               </Text>
             </Flex>
             {/* </Slide> */}
@@ -412,7 +412,7 @@ const About = () => {
                 lineHeight={'18px'}
                 letterSpacing={'0.02em'}
               >
-                Bets are coded into
+                Predictions are coded into
                 <Text as={'span'} color={'#E18935'}>
                   {/* &nsbp;  */}
                   &nbsp;smart contracts&nbsp;
@@ -474,7 +474,7 @@ const About = () => {
               >
                 {' '}
                 <Text as={'span'} color={'#E18935'}>
-                  The more you bet the more you gain&nbsp;
+                  The more you predictbet the more you gain&nbsp;
                 </Text>
                 from the other side if your win.
               </Text>

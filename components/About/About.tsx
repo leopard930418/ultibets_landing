@@ -417,7 +417,7 @@ const About = () => {
                   {/* &nsbp;  */}
                   &nbsp;smart contracts&nbsp;
                 </Text>
-                and deployed onto the blockchain
+                and deployed onto the blockchain{' '}
                 <Text as={'span'} color={'#E18935'}>
                   assuring fairness and transparency.
                 </Text>

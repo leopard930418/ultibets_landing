@@ -101,7 +101,7 @@ const ProgressBar = () => {
       item1: 'Avalanche / Binance Smart Chain / Fantom / Polygon Integration',
       item2: '11 Prediction Categories',
       item3: 'AVAX/BNB/FTM/MATIC Prediction Currencies Available',
-      item4: 'Weekly Squid Bets Competitions',
+      item4: 'Weekly Squid Predicting Competitions',
     },
     {
       title: 'Q1-Q2 2023',
@@ -121,7 +121,7 @@ const ProgressBar = () => {
       item1: '8000+ unique visitors',
       item2: '12+ countries',
       item3:
-        '190 000+ Testnet FTM predict on the protocol over 745 betting contracts',
+        '190 000+ Testnet FTM predict on the protocol over 745 prediction contracts',
     },
     {
       title: 'Q2-Q3 2022',
@@ -191,7 +191,7 @@ const ProgressBar = () => {
       item1: 'Avalanche / Binance Smart Chain / Fantom / Polygon Integration',
       item2: '11 prediction Categories',
       item3: 'AVAX/BNB/FTM/MATIC Prediction Currencies Available',
-      item4: 'Weekly Squid Bets Competitions',
+      item4: 'Weekly Squid Predicting Competitions',
     },
     {
       title: 'Q1 2023',

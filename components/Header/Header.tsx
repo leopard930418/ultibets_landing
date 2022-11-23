@@ -20,12 +20,12 @@ const Header = () => {
       href: "https://ultibets.vercel.app/",
     },
     {
-      name: "Bets",
+      name: "Prediction Markets",
       href: "https://ultibetsmainapp.vercel.app/bets",
     },
 
     {
-      name: "Squid Bet Competition",
+      name: "Squid Bet Competitions",
       href: "https://ultibetsmainapp.vercel.app/squid-competition",
     },
     {

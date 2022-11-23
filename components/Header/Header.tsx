@@ -97,7 +97,7 @@ const Header = () => {
               <Image
                 src="/images/svgs/bg/logo-vector.svg"
                 alt="logo"
-                width={["160px", "80px", "150px", "100%"]}
+                width={["160px", "160px", "150px", "100%"]}
               />
 
               <Flex

@@ -16,9 +16,9 @@ const Content = ({ title, subtitle, item1, item2, item3, item4 }: Props) => {
       zIndex={10}
       direction={'column'}
       mt={'10px'}
-      mb={'5px'}
+      mb={['6px', '5px']}
       width={'300px'}
-      height={['400px', 'auto', 'auto', 'auto']}
+      height={['400px', '350px', 'auto', 'auto']}
     >
       <Flex>
         {/* <Slide bottom duration={1000} delay={200}> */}

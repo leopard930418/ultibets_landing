@@ -14,10 +14,11 @@ const Hero = () => {
         'none',
       ]}
       backgroundSize={'cover'}
+
     >
       <Flex
         justifyContent={'space-between'}
-        width={['100%', '100%', '100%', '100vw']}
+        width={['100%', '100%', '100%', '98vw']}
         px={['10px', '20px', '100px', '100px']}
       >
         <Flex
@@ -29,14 +30,14 @@ const Hero = () => {
           <Heading
             fontStyle={'normal'}
             fontWeight={'700'}
-            fontSize={['30px', '30px', '40px', '60px']}
+            fontSize={['23px', '25px', '35px', '45px', '60px']}
             lineHeight={['40px', '40px', '40px', '73px']}
             letterSpacing={'0em'}
             textAlign={'left'}
             color={'#FFFFFF'}
-            width={['300px', '446px', '400px', '446px']}
+            width={['300px', '340px', '450px', '600px', '760px']}
           >
-            The first multichain betting protocol
+            The first crypto multichain prediction market
           </Heading>
           <Flex
             mx={['2px', '2px', '0px', '0px']}
@@ -50,6 +51,7 @@ const Hero = () => {
             justifyContent={['center', 'center', 'start', 'start']}
             alignItems={['center', 'center', 'start', 'start']}
           >
+            <a href='https://ultibetsmainapp.vercel.app/bets'>
             <Button
               height={'54px'}
               width={'224px'}
@@ -70,6 +72,7 @@ const Hero = () => {
                 Start Betting{' '}
               </Text>
             </Button>{' '}
+            </a>
           </Flex>
           {/* </Slide> */}
         </Flex>

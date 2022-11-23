@@ -6,41 +6,41 @@ import {
   Image,
   Stack,
   Text,
-} from '@chakra-ui/react';
-import React from 'react';
-import NavLink from '../Header/Navlink';
+} from "@chakra-ui/react";
+import React from "react";
+import NavLink from "../Header/Navlink";
 
 const Footer = () => {
   const LinkArry = [
     {
-      name: 'Home',
+      name: "Home",
       // href: '/',
-      href: 'https://ultibets.vercel.app/',
+      href: "https://ultibets.vercel.app/",
     },
     {
-      name: 'Bets',
-      href: 'https://ultibetsmainapp.vercel.app/bets',
+      name: "Bets",
+      href: "https://ultibetsmainapp.vercel.app/bets",
     },
 
     {
-      name: 'Squid Competition',
-      href: 'https://ultibetsmainapp.vercel.app/squid-competition',
+      name: "Squid Competition",
+      href: "https://ultibetsmainapp.vercel.app/squid-competition",
     },
     {
-      name: 'UtBets Token',
-      href: 'https://ultibetsmainapp.vercel.app/utbets-token',
+      name: "UtBets Token",
+      href: "https://ultibetsmainapp.vercel.app/utbets-token",
     },
     {
-      name: 'Governance',
-      href: 'https://ultibetsmainapp.vercel.app/governance',
+      name: "Governance",
+      href: "https://ultibetsmainapp.vercel.app/governance",
     },
     {
-      name: 'Merch Store',
-      href: 'https://ultibetsmerchstore.vercel.app/merch-store',
+      name: "Merch Store",
+      href: "https://ultibetsmerchstore.vercel.app/merch-store",
     },
     {
-      name: 'FAQ',
-      href: 'https://ultibetsmainapp.vercel.app/faq',
+      name: "FAQ",
+      href: "https://ultibetsmainapp.vercel.app/faq",
     },
   ];
 
@@ -102,77 +102,72 @@ const Footer = () => {
 
       <Box>
         <Box
-          display={['block', 'block', 'block', 'block']}
-          bgGradient={'linear(to-r, #353535 29.48%, #5A3B2E 75.94%)'}
-          borderStyle={'solid'}
-          width={'100%'}
-          bottom={'0'}
-          px={'80px'}
+          display={["block", "block", "block", "block"]}
+          bgGradient={"linear(to-r, #353535 29.48%, #5A3B2E 75.94%)"}
+          borderStyle={"solid"}
+          width={"100%"}
+          bottom={"0"}
+          px={"80px"}
         >
           <Flex
-            height={['unset', 'unset', 'unset', '80px']}
-            justifyContent={['center', 'center', 'center', 'space-between']}
-            alignItems={'center'}
+            height={["unset", "unset", "unset", "80px"]}
+            justifyContent={["center", "center", "center", "space-between"]}
+            alignItems={"center"}
             direction={[
-              'column-reverse',
-              'column-reverse',
-              'column-reverse',
-              'row',
+              "column-reverse",
+              "column-reverse",
+              "column-reverse",
+              "row",
             ]}
           >
             <Flex
-              display={['none', 'none', 'flex', 'flex']}
-              width={['auto', 'auto', '70%', '55%']}
-              justifyContent={'space-between'}
+              display={["none", "none", "flex", "flex"]}
+              gap={["20px", "20px", "20px", "40px"]}
             >
               {LinkArry.map((item, index) => (
                 <NavLink key={index} name={item.name} footer href={item.href} />
               ))}
             </Flex>
             <Grid
-              display={['grid', 'grid', 'none', 'none']}
-              width={['auto', '75%', '55%', '60%']}
-              // gridTemplateColumns={['repeat(2, 120px)', 'repeat(2, 180px)']}
-              justifyContent={'space-between'}
-              gridTemplateColumns={'repeat(2, 120px)'}
-              
-              mb={['10px', '20px', '20px', '0']}
+              display={["grid", "grid", "none", "none"]}
+              gridTemplateColumns={"repeat(2, 120px)"}
+              mb={["10px", "20px", "20px", "0"]}
               //center Content with margin
-              mx={'auto'}
+              mx={"auto"}
             >
               {LinkArry.map((item, index) => (
                 <NavLink key={index} name={item.name} footer href={item.href} />
               ))}
             </Grid>
-            <Stack direction={'row'} gap={['10px', '40px', '40px', '30px']}>
-              <a href='https://medium.com/@ultibets' target='_new'>
+            <Stack direction={"row"} gap={"25px"}>
+              <a href="https://medium.com/@ultibets" target="_new">
                 <Image
-                  src={'/images/svgs/medium-logo.svg'}
-                  alt='Twitter'
+                  src={"/images/svgs/medium-logo.svg"}
+                  alt="Twitter"
                   height={50}
                   width={50}
                 />
               </a>
-              <a href='http://t.me/ultibets' target='_new'>
+              <a href="http://t.me/ultibets" target="_new">
                 <Image
-                  src={'/images/svgs/telegram-logo.svg'}
-                  alt='Twitter'
+                  src={"/images/svgs/telegram-logo.svg"}
+                  alt="Twitter"
                   height={50}
                   width={50}
                 />
               </a>
-              <a href='http://discord.gg/EsWqNmTcdr' target='_new'>
+              <a href="http://discord.gg/EsWqNmTcdr" target="_new">
                 <Image
-                  src={'/images/svgs/discord-logo.svg'}
-                  alt='Twitter'
+                  src={"/images/svgs/discord-logo.svg"}
+                  alt="Twitter"
                   height={50}
                   width={50}
                 />
               </a>
-              <a href='https://twitter.com/ultibets' target='_new'>
+              <a href="https://twitter.com/ultibets" target="_new">
                 <Image
-                  src={'/images/svgs/twitter-logo.svg'}
-                  alt='Twitter'
+                  src={"/images/svgs/twitter-logo.svg"}
+                  alt="Twitter"
                   height={50}
                   width={50}
                 />

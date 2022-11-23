@@ -22,8 +22,7 @@ const Partners = () => {
           fontWeight={"700"}
           //             font-size: 25px;
           // line-height: 34px;
-          fontSize={['25px', '30px', '30px', '50px']}
-
+          fontSize={["25px", "30px", "30px", "50px"]}
           lineHeight={["41px", "41px", "34px", "68px"]}
           textTransform={"capitalize"}
           color={"#FFFFFF"}
@@ -44,23 +43,28 @@ const Partners = () => {
           direction={["column", "column", "column", "row"]}
         >
           <Image
+            src={"/images/svgs/Chainlink_logo.svg"}
+            width={["200px", "200px", "250px", "220px", "250px", "350px"]}
+            height={"auto"}
+          />
+          <Image
+            src={"/images/svgs/Sushi_logo.svg"}
+            width={["200px", "200px", "250px", "220px", "250px", "350px"]}
+            height={"auto"}
+          />
+          <Image
             src={"/images/svgs/Thorstarter_logo.svg"}
             position={"relative"}
-            width={['200px', '200px', '250px', '220px', '250px', '350px']}
-            height={'auto'}
+            width={["200px", "200px", "250px", "220px", "250px", "350px"]}
+            height={"auto"}
           />
-          <Image src={"/images/svgs/Chainlink_logo.svg"} 
-          width={['200px', '200px', '250px', '220px', '250px', '350px']}
-          height={'auto'}
+
+          <Image
+            src={"/images/svgs/GA_logo.svg"}
+            width={["200px", "200px", "250px", "220px", "250px", "350px"]}
+            height={"auto"}
           />
-          <Image src={"/images/svgs/GA_logo.svg"} 
-          width={['200px', '200px', '250px', '220px', '250px', '350px']}
-          height={'auto'}
-          />
-          <Image src={"/images/svgs/Sushi_logo.svg"} 
-          width={['200px', '200px', '250px', '220px', '250px', '350px']}
-          height={'auto'}
-          />
+
           {/* <Image
           mt={['100px', '130px', '380px', '-20px']}
           src={'/images/svgs/bg/key-vector.svg'}

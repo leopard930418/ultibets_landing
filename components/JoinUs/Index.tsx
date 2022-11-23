@@ -11,7 +11,7 @@ const JoinUs = () => {
     
       <Box
         display={["none", "none", "block", "block"]}
-        width={["300px", "100vw", "100vw", "100vw"]}
+        width={["300px", "100vw", "100vw", "98.7vw"]}
         height={["640px", "800px", "1000px", "1200px"]}
         background={"url(/images/svgs/bg/bg-last.png) center/cover no-repeat"}
       >
@@ -81,6 +81,7 @@ const JoinUs = () => {
               justifyContent={["center", "center", "center", "unset"]}
               mt={["50px", "50px", "0px", "0px"]}
             >
+              <a href="https://linktr.ee/UltiBets">
               <Button
                 height={"54px"}
                 width={"267px"}
@@ -101,6 +102,7 @@ const JoinUs = () => {
                   Contact us now
                 </Text>
               </Button>
+              </a>
             </Flex>
             {/* </Slide> */}
           </Flex>
@@ -115,7 +117,7 @@ const JoinUs = () => {
         />
         <Flex
           display={["flex", "flex", "flex", "flex"]}
-          mt={"-100px"}
+          mt={"100"}
           mb={["100px", "100px", "100px", "200px"]}
           alignItems={"center"}
         >
@@ -182,6 +184,8 @@ const JoinUs = () => {
               justifyContent={["center", "center", "center", "unset"]}
               mt={["50px", "50px", "0px", "0px"]}
             >
+              <a href="https://linktr.ee/UltiBets">
+
               <Button
                 height={"54px"}
                 width={"267px"}
@@ -202,6 +206,7 @@ const JoinUs = () => {
                   Contact us now
                 </Text>
               </Button>
+              </a>
             </Flex>
             {/* </Slide> */}
           </Flex>

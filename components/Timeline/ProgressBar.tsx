@@ -486,7 +486,7 @@ const ProgressBar = () => {
           <Flex
             flexDirection={'column'}
             my={'30px'}
-            gap={'200px'}
+            gap={['40px', '90px', '200px', '200px']}
             mt={'-20px'}
             ml={'20px'}
           >

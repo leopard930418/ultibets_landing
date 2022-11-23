@@ -102,7 +102,7 @@ const KeyNumbers = () => {
         zIndex={'-1'}
         justifyContent={'center'}
         alignItems={'center'}
-        gap={['80px', '130px', '100px', '170px']}
+        gap={['80px', '130px', '100px', '150px']}
       >
         <Box
           opacity={0.8}
@@ -148,7 +148,7 @@ const KeyNumbers = () => {
         px={['0px', '0px', '0px', '120px']}
         mt={['-1000px', '-1050px', '-1030px', '-250px']}
         alignItems={'center'}
-        gap={['200px', '200px', '200px', '250px']}
+        gap={['200px', '200px', '200px', '170px', '250px']}
         direction={['column', 'column', 'column', 'row']}
       >
         <Flex>

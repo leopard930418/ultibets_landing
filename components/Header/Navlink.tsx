@@ -1,7 +1,7 @@
-import { Link, Text, Tooltip } from '@chakra-ui/react';
-import Head from 'next/head';
-import NextLink from 'next/link';
-import { useRouter } from 'next/router';
+import { Link, Text, Tooltip } from "@chakra-ui/react";
+import Head from "next/head";
+import NextLink from "next/link";
+import { useRouter } from "next/router";
 
 type NavlinkProps = {
   href: string;
@@ -15,8 +15,8 @@ export default function NavLink({ name, href, onClose, footer }: NavlinkProps) {
   const currentRoute = router.pathname;
 
   return (
-    <div>
-      {' '}
+    <div >
+      {" "}
       {/* <NextLink href={href} passHref>
         <Text
           boxSizing="border-box"
@@ -38,7 +38,7 @@ export default function NavLink({ name, href, onClose, footer }: NavlinkProps) {
           {name}
         </Text>
       </NextLink> */}
-      <NextLink href={href} passHref>
+      <NextLink href={href} passHref >
         {/* <Tooltip
           display={name === 'Home' ? 'none' : 'flex'}
           label={'Coming Soon'}
@@ -47,22 +47,23 @@ export default function NavLink({ name, href, onClose, footer }: NavlinkProps) {
           placement={'bottom'}
           borderRadius={'5px'}
         > */}
-          <Link
-            color={currentRoute === href ? '#E18833' : 'white'}
-            _focus={{
-              border: 'none',
-              color: 'red',
-            }}
-            _hover={{
-              color: 'red',
-            }}
-            onClick={onClose}
-            fontSize={['14px', '14px', '13px', footer ? '14px' : '18px']}
-            fontFamily={'Nunito'}
-            fontWeight={'bold'}
-          >
-            {name}
-          </Link>
+        <Link
+          color={currentRoute === href ? "#E18833" : "white"}
+          _focus={{
+            border: "none",
+            color: "red",
+          }}
+          _hover={{
+            color: "red",
+          }}
+          onClick={onClose}
+          fontSize={["14px", "14px", "13px", footer ? "14px" : "18px"]}
+          fontFamily={"Nunito"}
+          fontWeight={"bold"}
+          
+        >
+          {name}
+        </Link>
         {/* </Tooltip> */}
       </NextLink>
     </div>

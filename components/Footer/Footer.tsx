@@ -130,8 +130,9 @@ const Footer = () => {
             </Flex>
             <Grid
               display={["grid", "grid", "none", "none"]}
-              gridTemplateColumns={"repeat(2, 120px)"}
+              gridTemplateColumns={"repeat(2, 160px)"}
               mb={["10px", "20px", "20px", "0"]}
+              pl={['auto','40px']}
               //center Content with margin
               mx={"auto"}
             >

@@ -102,7 +102,7 @@ const About = () => {
                 textTransform={"capitalize"}
                 color={"#FFFFFF"}
               >
-                Various Predictions Formats and Categories.
+                Various Formats and Categories.
               </Text>
               <Flex
                 justifyContent={"center"}
@@ -130,7 +130,7 @@ const About = () => {
                   </Text>
                   &nbsp; Predictions and
                   <Text as={"span"} color={"#E18935"}>
-                    &nbsp;side
+                    &nbsp;Side
                   </Text>
                   &nbsp;Predictions will be
                   <Text as={"span"} color={"#E18935"}>
@@ -345,7 +345,7 @@ const About = () => {
               textTransform={"capitalize"}
               color={"#FFFFFF"}
             >
-              Various Predictions Formats and Categories.
+              Various Formats and Categories.
             </Text>
             <Flex
               // justifyContent={'center'}
@@ -374,7 +374,7 @@ const About = () => {
                 </Text>
                 &nbsp; Predictions and
                 <Text as={"span"} color={"#E18935"}>
-                  &nbsp;side
+                  &nbsp;Side
                 </Text>
                 &nbsp;Predictions will be
                 <Text as={"span"} color={"#E18935"}>

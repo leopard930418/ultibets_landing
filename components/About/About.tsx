@@ -102,7 +102,7 @@ const About = () => {
                 textTransform={"capitalize"}
                 color={"#FFFFFF"}
               >
-                Various Formats and Categories.
+                Various Formats and Categories
               </Text>
               <Flex
                 justifyContent={"center"}
@@ -345,7 +345,7 @@ const About = () => {
               textTransform={"capitalize"}
               color={"#FFFFFF"}
             >
-              Various Formats and Categories.
+              Various Formats and Categories
             </Text>
             <Flex
               // justifyContent={'center'}

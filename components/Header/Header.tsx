@@ -128,7 +128,7 @@ const Header = () => {
                 mt={["unset", "unset", 7, 7]}
                 height={["unset", "unset", 15, 15]}
                 gap={["unset", "unset", "10px", 4, 8]}
-                ml={["unset", "unset", "10px", "40px", "0px"]}
+                ml={["unset", "unset", "10px"]}
                 alignItems={["unset", "unset", "center", "center"]}
               >
                 {LinkArry.map((item, index) => (
@@ -149,11 +149,17 @@ const Header = () => {
               </Flex>{' '}
             </Flex> */}
             {/* launch app button */}
-            <Flex>
+            <Flex
+              justifyContent={[
+                "center"
+              
+              ]}
+              width={["200px", "unset", "200px", "250px"]}
+            >
               <Flex
                 mt={"18px"}
                 display={["none", "none", "flex", "flex"]}
-                mr={["unset", "unset", "unset", "40px"]}
+                // mr={["unset", "unset", "unset", "40px"]}
               >
                 <a href="https://ultibetsmainapp.vercel.app/bets">
                   <Button

@@ -5,8 +5,8 @@ const Slide = require("react-reveal/Slide");
 const JoinUs = () => {
   return (
     <Box
-      mt={["-250px", "-150px", "-180px", "-270px"]}
-      mb={["150px", "50px", "80px", "170px"]}
+      mt={["550px", "-1000px", "-180px", "-270px"]}
+      mb={["150px", "150px", "80px", "0px"]}
     >
     
       <Box

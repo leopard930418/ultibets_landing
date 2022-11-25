@@ -83,7 +83,7 @@ const Header = () => {
                   <Image
                     src="/images/svgs/with-color-logo.svg"
                     alt="logo"
-                    width={["200px", "unset", "200px", "100%"]}
+                    width={["200px", "unset", "200px", "250px"]}
                   />
                 </Link>
               </NextLink>
@@ -120,20 +120,24 @@ const Header = () => {
                 )}
               </Flex>
             </Flex>
-
-            <Flex
-              display={["none", "none", "flex", "flex"]}
-              width={["unset", "unset", "100%", "100%"]}
-              mt={["unset", "unset", 7, 7]}
-              height={["unset", "unset", 15, 15]}
-              gap={["unset", "unset", "10px", 4, 8]}
-              ml={["unset", "unset", "10px", "40px", "40px"]}
-              alignItems={["unset", "unset", "center", "center"]}
-            >
-              {LinkArry.map((item, index) => (
-                <NavLink key={index} name={item.name} href={item.href} />
-              ))}
+            {/* navbar */}
+            <Flex>
+              <Flex
+                display={["none", "none", "flex", "flex"]}
+                width={["unset", "unset", "100%", "100%"]}
+                mt={["unset", "unset", 7, 7]}
+                height={["unset", "unset", 15, 15]}
+                gap={["unset", "unset", "10px", 4, 8]}
+                ml={["unset", "unset", "10px", "40px", "0px"]}
+                alignItems={["unset", "unset", "center", "center"]}
+              >
+                {LinkArry.map((item, index) => (
+                  <NavLink key={index} name={item.name} href={item.href} />
+                ))}
+              </Flex>
             </Flex>
+
+            {/* navbar */}
             {/* <Flex>
               <Flex
                 mt={['unset', 'unset', '17px', '14px']}
@@ -144,7 +148,7 @@ const Header = () => {
                 <Account />
               </Flex>{' '}
             </Flex> */}
-
+            {/* launch app button */}
             <Flex>
               <Flex
                 mt={"18px"}
@@ -154,7 +158,7 @@ const Header = () => {
                 <a href="https://ultibetsmainapp.vercel.app/bets">
                   <Button
                     height={"41px"}
-                    width={["162px","162px","120px","140px", "162px"]}
+                    width={["162px", "162px", "120px", "140px", "162px"]}
                     borderRadius={"34px"}
                     border={"1px solid #FC541C"}
                     background={"unset"}
@@ -162,7 +166,7 @@ const Header = () => {
                   >
                     <Text
                       fontFamily={"Nunito"}
-                      fontSize={["14px","14px","14px","18px"]}
+                      fontSize={["14px", "14px", "14px", "18px"]}
                       fontWeight={"700"}
                       lineHeight={"25px"}
                       letterSpacing={"0em"}
@@ -175,6 +179,7 @@ const Header = () => {
                 </a>
               </Flex>{" "}
             </Flex>
+            {/* launch app button */}
           </Flex>
         </header>
       </Box>

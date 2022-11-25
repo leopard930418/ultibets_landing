@@ -48,13 +48,13 @@ export default function NavLink({ name, href, onClose, footer }: NavlinkProps) {
           borderRadius={'5px'}
         > */}
         <Link
-          color={currentRoute === href ? "#E18833" : "white"}
+          color={currentRoute === href ? "#FF9100" : "white"}
           _focus={{
             border: "none",
-            color: "red",
+            color: "#FF9100",
           }}
           _hover={{
-            color: "red",
+            color: "#FF9100",
           }}
           onClick={onClose}
           fontSize={["14px", "14px", "13px", footer ? "14px" : "14px", "16px"]}

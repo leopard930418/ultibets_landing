@@ -57,7 +57,7 @@ export default function NavLink({ name, href, onClose, footer }: NavlinkProps) {
             color: "red",
           }}
           onClick={onClose}
-          fontSize={["14px", "14px", "13px", footer ? "14px" : "18px"]}
+          fontSize={["14px", "14px", "13px", footer ? "14px" : "14px", "16px"]}
           fontFamily={"Nunito"}
           fontWeight={"bold"}
           

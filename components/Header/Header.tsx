@@ -126,8 +126,8 @@ const Header = () => {
               width={["unset", "unset", "100%", "100%"]}
               mt={["unset", "unset", 7, 7]}
               height={["unset", "unset", 15, 15]}
-              gap={["unset", "unset", "10px", 10]}
-              ml={["unset", "unset", "10px", "90px"]}
+              gap={["unset", "unset", "10px", 4, 8]}
+              ml={["unset", "unset", "10px", "40px", "40px"]}
               alignItems={["unset", "unset", "center", "center"]}
             >
               {LinkArry.map((item, index) => (
@@ -154,7 +154,7 @@ const Header = () => {
                 <a href="https://ultibetsmainapp.vercel.app/bets">
                   <Button
                     height={"41px"}
-                    width={"162px"}
+                    width={["162px","162px","120px","140px", "162px"]}
                     borderRadius={"34px"}
                     border={"1px solid #FC541C"}
                     background={"unset"}
@@ -162,7 +162,7 @@ const Header = () => {
                   >
                     <Text
                       fontFamily={"Nunito"}
-                      fontSize={"18px"}
+                      fontSize={["14px","14px","14px","18px"]}
                       fontWeight={"700"}
                       lineHeight={"25px"}
                       letterSpacing={"0em"}

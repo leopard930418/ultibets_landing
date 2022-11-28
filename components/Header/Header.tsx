@@ -83,8 +83,22 @@ const Header = () => {
                   <Image
                     src="/images/svgs/with-color-logo.svg"
                     alt="logo"
-                    width={["200px", "unset", "200px", "250px"]}
+                    width={["160px", "unset", "160px", "200px"]}
+                    marginLeft={'14px'}
+                    marginTop={'14px'}
                   />
+                  <Box
+                    opacity={0.8}
+                    // zIndex={-1}
+                    // position={'absolute'}
+                    width={"289px"}
+                    height={"289px"}
+                    marginLeft={['-70px']}
+                    marginTop={['-160px']}
+                    background={
+                      "radial-gradient(50% 50% at 50% 50%, rgba(225, 137, 51, 0.5) 0%, rgba(225, 136, 51, 0.5) 0.01%, rgba(190, 59, 49, 0) 100%)"
+                    }
+                  />{" "}
                 </Link>
               </NextLink>
             </Flex>
@@ -150,10 +164,7 @@ const Header = () => {
             </Flex> */}
             {/* launch app button */}
             <Flex
-              justifyContent={[
-                "center"
-              
-              ]}
+              justifyContent={["center"]}
               width={["200px", "unset", "200px", "250px"]}
             >
               <Flex

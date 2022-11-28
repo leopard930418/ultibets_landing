@@ -84,17 +84,18 @@ const Header = () => {
                     src="/images/svgs/with-color-logo.svg"
                     alt="logo"
                     width={["160px", "unset", "160px", "200px"]}
-                    marginLeft={'14px'}
-                    marginTop={'14px'}
+                    marginLeft={"14px"}
+                    marginTop={"14px"}
+                    marginRight={'20px'}
                   />
                   <Box
                     opacity={0.8}
                     // zIndex={-1}
-                    // position={'absolute'}
+                    position={'absolute'}
                     width={"289px"}
                     height={"289px"}
-                    marginLeft={['-70px']}
-                    marginTop={['-160px']}
+                    marginLeft={["-70px"]}
+                    marginTop={["-160px"]}
                     background={
                       "radial-gradient(50% 50% at 50% 50%, rgba(225, 137, 51, 0.5) 0%, rgba(225, 136, 51, 0.5) 0.01%, rgba(190, 59, 49, 0) 100%)"
                     }
@@ -109,11 +110,22 @@ const Header = () => {
               mt={["20px", "20px", "15px", "unset"]}
             >
               <Image
-                src="/images/svgs/bg/logo-vector.svg"
+                src="/images/svgs/with-color-logo.svg"
                 alt="logo"
                 width={["160px", "80px", "150px", "100%"]}
               />
-
+              <Box
+                opacity={0.8}
+                // zIndex={-1}
+                 position={'absolute'}
+                width={"289px"}
+                height={"289px"}
+                marginLeft={["-70px"]}
+                marginTop={["-160px"]}
+                background={
+                  "radial-gradient(50% 50% at 50% 50%, rgba(225, 137, 51, 0.5) 0%, rgba(225, 136, 51, 0.5) 0.01%, rgba(190, 59, 49, 0) 100%)"
+                }
+              />{" "}
               <Flex
                 mr={"10px"}
                 alignItems="center"

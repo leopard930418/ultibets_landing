@@ -11,7 +11,7 @@ const JoinUs = () => {
     
       <Box
         display={["none", "none", "block", "block"]}
-        width={["300px", "100vw", "100vw", "100vw","98.7vw"]}
+        width={["300px", "100%", "100%", "100%","100%"]}
         height={["640px", "800px", "1000px", "1000px"]}
         background={"url(/images/svgs/bg/bg-last.png) center/cover no-repeat"}
       >
@@ -112,7 +112,7 @@ const JoinUs = () => {
         <Image
           src={"/images/svgs/bg/last-bg-mobile.png"}
           alt={"bg"}
-          width={["100vw", "100vw", "100vw", "100vw"]}
+          width={["100%", "100%", "100vw", "100vw"]}
           height={"auto"}
         />
         <Flex

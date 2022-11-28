@@ -83,9 +83,9 @@ const Header = () => {
                   <Image
                     src="/images/svgs/with-color-logo.svg"
                     alt="logo"
-                    width={["160px", "unset", "160px", "200px"]}
-                    marginLeft={"14px"}
-                    marginTop={"14px"}
+                    width={["130px", "unset", "130px", "170px"]}
+                    marginLeft={"28px"}
+                    marginTop={"15px"}
                     marginRight={'20px'}
                   />
                   <Box
